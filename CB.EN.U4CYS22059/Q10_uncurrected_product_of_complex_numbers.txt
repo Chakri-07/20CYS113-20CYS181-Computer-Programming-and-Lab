@@ -1,0 +1,21 @@
+#include<stdio.h>
+struct complex_numbers{
+    float a,b;
+    char c;
+    char i;
+}n1,n2;
+int main(){
+    float a,b,c,e;
+    char i,d;
+    scanf("%lf",&n1.a);
+    scanf("%lf",&n1.b);
+    n1.c=n1.a+ i *(n1.b);
+    scanf("%lf",&n2.a);
+    scanf("%lf",&n1.b);
+     n2.c=n2.a+ i *(n2.b);
+     a=(n1.a)*(n2.a);
+     b=(-1)*(n1.b)*(n2.b);
+     c=(n1.a)*(n2.b)+ (n1.b)*(n2.a);
+     d=a+b+i*(c);
+     printf("The product is %c",d);
+}
